@@ -1,0 +1,49 @@
+/* Resetando o estilo padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+/* Centralizando o botão na página */
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; 
+    background-image: url('https://cdn.pixabay.com/photo/2014/09/07/22/17/forest-438432_1280.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+  
+.container {
+    display: flex;
+    justify-content: center;
+}
+  
+.explorar-btn {
+    background-color: #4caf50; 
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+}
+  
+.explorar-btn:hover {
+    background-color: #45a049; 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); 
+    transform: scale(1.05); 
+}
+  
+.explorar-btn:active {
+    transform: scale(1); 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
